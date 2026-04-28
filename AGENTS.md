@@ -4,6 +4,7 @@
 
 - Always write commit messages in English.
 - Use semantic / conventional commit messages when possible.
+- Always push committed changes to the tracked remote when the user asks to version or commit work.
 - Keep changes minimal and focused on the requested task.
 - Preserve the existing Portuguese content style in the project files unless the user asks otherwise.
 - Treat this repository as a frontend exercise for the SCTEC quick track of Software Development.
