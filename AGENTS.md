@@ -19,4 +19,3 @@ When creating or updating documentation files (`.md`, `.json`, `.html`), follow 
 - **MD012/no-multiple-blanks:** Use maximum 1 consecutive blank line between sections (not 2 or more).
 - **Spellcheck:** Add custom words to `cspell.json` under the `words` array (e.g., project names, proper nouns, technical terms) instead of ignoring them globally.
 - **HTML:** Ensure all tags are properly closed (`<ul>`, `<p>`, `<section>`, etc.) to avoid linting errors.
-
