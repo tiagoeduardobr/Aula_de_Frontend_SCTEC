@@ -1,0 +1,19 @@
+{
+  "version": "0.2",
+  "language": "pt-BR,en-US",
+  "dictionaries": ["pt-BR", "en-US"],
+  "ignorePaths": [".git/**", "node_modules/**"],
+  "ignoreRegExpList": [
+    "<[^>]*>",
+    "https?://[^\\s]+"
+  ],
+  "words": [
+    "SCTEC",
+    "GitHub",
+    "LinkedIn",
+    "Blumenau",
+    "Full-Stack",
+    "HTML5",
+    "overengineered"
+  ]
+}
