@@ -1,21 +1,20 @@
 # AGENTS.md
 
-## Project Preferences
+## Preferências do Projeto
 
-- Always write commit messages in English.
-- Use semantic / conventional commit messages when possible.
-- Always push committed changes to the tracked remote when the user asks to version or commit work.
-- Keep changes minimal and focused on the requested task.
-- Preserve the existing Portuguese content style in the project files unless the user asks otherwise.
-- Treat this repository as a frontend exercise for the SCTEC quick track of Software Development.
-- When updating the README, keep the SCTEC / SENAI context visible and concise.
-- Prefer simple, readable HTML and documentation over overengineered solutions.
+- **Commits:** Escreva as mensagens em inglês, usando o padrão semântico/convencional.
+- **Versionamento:** Ao versionar, sempre faça push das mudanças para o repositório remoto.
+- **Escopo:** Mantenha as alterações mínimas e focadas na tarefa solicitada.
+- **Estilo:** Preserve o estilo de conteúdo em português nos arquivos do projeto, salvo solicitação contrária.
+- **Contexto:** Trate este repositório como um exercício de frontend para a trilha rápida de Desenvolvimento de Software do SCTEC.
+- **README:** Ao atualizar o README, mantenha o contexto SCTEC/SENAI visível e conciso.
+- **Simplicidade:** Prefira soluções simples e legíveis em HTML e documentação.
 
-## Documentation & Linting Rules
+## Regras de Documentação e Linting
 
-When creating or updating documentation files (`.md`, `.json`, `.html`), follow these rules:
+Ao criar ou atualizar arquivos de documentação (`.md`, `.json`, `.html`), siga estas regras:
 
-- **MD047/single-trailing-newline:** All files must end with a single newline character (no blank lines at EOF).
-- **MD012/no-multiple-blanks:** Use maximum 1 consecutive blank line between sections (not 2 or more).
-- **Spellcheck:** Add custom words to `cspell.json` under the `words` array (e.g., project names, proper nouns, technical terms) instead of ignoring them globally.
-- **HTML:** Ensure all tags are properly closed (`<ul>`, `<p>`, `<section>`, etc.) to avoid linting errors.
+- **MD047/single-trailing-newline:** Termine todos os arquivos com uma única quebra de linha.
+- **MD012/no-multiple-blanks:** Use no máximo uma linha em branco entre seções.
+- **Spellcheck:** Adicione palavras personalizadas (nomes de projeto, termos técnicos) ao `cspell.json` em `words` em vez de ignorá-las.
+- **HTML:** Feche todas as tags (`<ul>`, `<p>`, `<section>`, etc.) para evitar erros de linting.
